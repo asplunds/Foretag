@@ -50,7 +50,7 @@ header{
     .img {
       flex-direction: column;
     }
-    .bild{
+    .bild .bild2{
         width: 80%;
     }
 }
@@ -58,8 +58,9 @@ header{
     display: none;
 }
 .overwatch{
-    justify-content: flex-end;
+    float: right;
 }
-.spelrubriker{
-    text-decoration: ;
+.bild2{
+    width: 25%;
+    flex: none;
 }
