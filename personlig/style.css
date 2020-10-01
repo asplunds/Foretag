@@ -1,12 +1,14 @@
 body, html {
     margin: 0px;
     scroll-behavior: smooth;
-    background-color: #6fabbf;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    background-color: #303030;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
 }
 header {
     display: relative;
     margin-top: -25px;
+    background-color: #000000;
 }
 header h1 {
     font-size: 35px;
@@ -15,9 +17,6 @@ header h1 {
 }
 .head {
     font-size: 16px;
-}
-.background{
-    background-color: #000000;
 }
 .menu-items a {
     color: #ffffff;
@@ -42,13 +41,13 @@ header h1 {
     display: flex;
 }
 .bild {
-    justify-content: ;
     width: 25%;
     margin-left: 300px;
 
 }
 .bild2 {
-    width: 25%;
+    width: 50%;
+    margin-bottom: 50px;
 }
 .container {
     display: flex;
@@ -62,9 +61,34 @@ header h1 {
       flex-direction: column;
     }
     .bild .bild2{
-        width: 80;
+        width: 80%;
     }
 }
 .top{
     margin-top: 50px;
+}
+.rubrik{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containers{
+    border: 5px solid black;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+.spelrubriker{
+    max-width: 100px;
+}
+.spel{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.rsize{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.bottop{
+    color: #303030;
 }
