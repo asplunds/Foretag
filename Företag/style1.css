@@ -1,0 +1,13 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #303030;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+}
+header, h1{
+    color: white;
+    padding: 50px;
+}
