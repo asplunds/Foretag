@@ -5,10 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
+    <script src="sida.js"></script>
 </head>
 <body>
     <header>
-        <h1>UltraGamers.se</h1>
+        <h1>UltraGamers</h1>
+        <nav class="bar">
+            <div class="menu">
+                <a href="">Graffikkort</a>
+                <a href="">Moderkort</a>
+                <a href="">Processor</a>
+                <a href="">Lagring</a>
+                <a href="">Ram</a>
+                <a href="">Chassi</a>
+                <a href="">Kylning</a>
+                <input type="text" placeholder="Sök..." id="search">
+            </div>
+        </nav>
     </header>
+    <div class="slides">
+        <img class="mySlides" src="../personlig/ngnl.jpg" style="width:100%">
+        <img class="mySlides" src="../personlig/yourname.jpg" style="width:100%">
+        <img class="mySlides" src="../personlig/overwatch2.jpg" style="width:100%">
+        <img class="mySlides" src="../personlig/Minecraft.jpg" style="width:100%">
+      
+        <button onclick="plusDivs(-1)">&#10094;</button>
+        <button onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
 </body>
 </html>
