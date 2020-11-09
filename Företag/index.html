@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script src="sida.js"></script>
 </head>
 <body>
@@ -23,15 +25,19 @@
             </div>
         </nav>
     </header>
-    <div class="slides">
-        <img class="mySlides" src="../personlig/ngnl.jpg" style="width:100%">
-        <img class="mySlides" src="../personlig/yourname.jpg" style="width:100%">
-        <img class="mySlides" src="../personlig/overwatch2.jpg" style="width:100%">
-        <img class="mySlides" src="../personlig/Minecraft.jpg" style="width:100%">
-      
-        <button onclick="plusDivs(-1)">&#10094;</button>
-        <button onclick="plusDivs(1)">&#10095;</button>
-    </div>
 
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide"><div class="mySlides" style="background-image: url('../personlig/ngnl.jpg');"></div></li>
+                <li class="splide__slide"><div class="mySlides" style="background-image: url('../personlig/yourname.jpg');"></div></li>
+                <li class="splide__slide"><div class="mySlides" style="background-image: url('../personlig/overwatch2.jpg');"></div></li>
+                <li class="splide__slide"><div class="mySlides" style="background-image: url('../personlig/Minecraft.jpg');"></div></li>
+                
+                    
+
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
